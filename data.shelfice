@@ -1,0 +1,16 @@
+# *******************************
+# Parameter for SHELFICE package
+# ******************************
+ &SHELFICE_PARM01
+ SHELFICEboundaryLayer = .TRUE.,
+ SHELFICEloadAnomalyFile = './RossSea_icebase_rtopo2_01_ano_1038.bin',
+ SHELFICEtopoFile   = './RossSea_icebase_rtopo2_01.bin',
+ SHELFICEconserve = .TRUE.,
+ no_slip_shelfice = .false.,
+ SHELFICEwriteState = .TRUE.,
+# SHELFICEuseGammaFrict = .FALSE.,
+ SHELFICEuseGammaFrict = .TRUE.,
+ shiCdrag=0.00015,
+ SHELFICEheatTransCoeff=0.00085,
+
+ &
