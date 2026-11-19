@@ -1,0 +1,8 @@
+# This set-up makes is supposed to immitate salt. That is, PTRACER(:,:,:,1)
+# should look exactly like S(:,:,:).
+ &PTRACERS_PARM01
+ PTRACERS_numInUse=1,
+ PTRACERS_Iter0=0,
+ PTRACERS_initialFile(1)='dye.bin',
+ PTRACERS_names(1)='Dye',
+ &

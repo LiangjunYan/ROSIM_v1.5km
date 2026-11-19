@@ -1,0 +1,64 @@
+# SEAICE parameters
+ &SEAICE_PARM01
+   SEAICE_no_Slip     = .TRUE.,
+   SEAICEadvScheme    = 7,
+   SEAICE_wetAlbTemp  = 0.,
+   SEAICE_mcPheeTaper = 0.92,
+   SEAICE_mcPheePiston= 0.008333,
+#   SEAICE_mcPheePiston= 0.16666, 
+   SEAICE_frazilFrac  = 0.1,
+#   SEAICE_frazilFrac  = 1.15e-4,
+   SEAICE_dryIceAlb   = 0.8509,
+   SEAICE_wetIceAlb   = 0.7284,
+   SEAICE_drySnowAlb  = 0.7754,
+   SEAICE_wetSnowAlb  = 0.7753,
+#      SEAICE_waterAlbedo = 0.2756,
+   SEAICE_waterDrag   = 5.6221E-03,
+   SEAICE_drag        = 0.0015114,
+   HO                 = 1.0697,
+
+   SEAICE_strength    = 1.0024e+04,
+   OCEAN_drag         = 8.1541e-04,
+   LSR_ERROR          = 2e-4,
+#   SEAICE_saltFrac    = 0.3548,
+   SEAICE_saltFrac    = 0.23,
+#  for variable freezing point
+#   SEAICE_tempFrz0 = 0.0901
+#   SEAICE_dTempFrz_dS = -0.0575
+
+# for fixed freezing point
+   SEAICE_tempFrz0 = -1.96
+   SEAICE_dTempFrz_dS = 0.
+
+#      SEAICE_dryIceAlb   = 0.8783,
+#      SEAICE_wetIceAlb   = 0.7869,
+#      SEAICE_drySnowAlb  = 0.9482,
+#      SEAICE_wetSnowAlb  = 0.8216,
+#      SEAICE_waterAlbedo = 0.2756,
+#      SEAICE_strength    = 2.2510e+04,
+#      OCEAN_drag         = 8.1541e-04,
+#      SEAICE_waterDrag   = 5.5399,
+#      SEAICE_drag        = 0.0012,
+#      LSR_ERROR          = 2e-4,
+#      SEAICEuseDYNAMICS  = .TRUE.,
+#      SEAICE_freeze      = -1.7348,
+#      HO                 = 1.,
+#      MIN_ATEMP          = -40.,
+#      MIN_TICE           = -40.,
+#      SEAICEadvSnow      = .TRUE.,
+#      SEAICEadvSalt      = .TRUE.,
+#      SEAICEuseFlooding  = .TRUE.,
+#      SIsalFrac          = 0.3548,
+#      ICE2WATR           = 0.92D0,
+##
+#      DIFF1              = 0.,
+#      SEAICEadvScheme    = 7,
+#
+#      SEAICE_gamma_t     = 259200.,
+#      SEAICE_gamma_t_frz = 21600.,
+#
+      AreaFile           = './siarea_5.0.bin',
+      HsnowFile          = './sihsnow_5.0.bin',
+      HsaltFile          = './sisalt_5.0.bin',
+      HeffFile           = './siheff_5.0.bin',
+ &

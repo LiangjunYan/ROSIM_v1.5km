@@ -1,0 +1,17 @@
+# Packages
+ &PACKAGES
+   useSEAICE      = .TRUE.,
+   useKPP         = .TRUE.,
+   useDiagnostics = .TRUE.,
+   useEXF         = .TRUE.,
+   useOBCS        = .TRUE.,
+#  useRBCS        = .TRUE.,
+#  useBBL        = .TRUE.,
+#  usePTRACERS    = .TRUE.,
+#  useFRAZIL      = .TRUE.,
+   useSHELFICE    = .TRUE.,
+   useIcefront    =.TRUE.,
+#  useFLT         = .TRUE.,
+   useCal         =.TRUE.,
+   useDOWN_SLOPE  =.TRUE.,
+ &
